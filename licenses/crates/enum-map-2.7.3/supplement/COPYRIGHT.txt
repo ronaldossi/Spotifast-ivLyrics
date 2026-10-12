@@ -1,0 +1,84 @@
+src\arbitrary.rs
+// SPDX-FileCopyrightText: 2021 Bruno Corrêa Zimmermann <brunoczim@gmail.com>
+// SPDX-FileCopyrightText: 2021 Kamila Borowska <kamila@borowska.pw>
+//
+// SPDX-License-Identifier: MIT OR Apache-2.0
+
+
+src\enum_map_impls.rs
+// SPDX-FileCopyrightText: 2017 - 2021 Kamila Borowska <kamila@borowska.pw>
+// SPDX-FileCopyrightText: 2021 Bruno Corrêa Zimmermann <brunoczim@gmail.com>
+// SPDX-FileCopyrightText: 2021 micycle
+// SPDX-FileCopyrightText: 2023 Nicolas Carranza <nicarran@yandex.com>
+//
+// SPDX-License-Identifier: MIT OR Apache-2.0
+
+
+src\internal.rs
+// SPDX-FileCopyrightText: 2017 - 2023 Kamila Borowska <kamila@borowska.pw>
+// SPDX-FileCopyrightText: 2021 Bruno Corrêa Zimmermann <brunoczim@gmail.com>
+// SPDX-FileCopyrightText: 2022 philipp <descpl@yahoo.de>
+//
+// SPDX-License-Identifier: MIT OR Apache-2.0
+
+
+src\lib.rs
+// SPDX-FileCopyrightText: 2017 - 2023 Kamila Borowska <kamila@borowska.pw>
+// SPDX-FileCopyrightText: 2019 Riey <creeper844@gmail.com>
+// SPDX-FileCopyrightText: 2021 Alex Sayers <alex@asayers.com>
+// SPDX-FileCopyrightText: 2021 Bruno Corrêa Zimmermann <brunoczim@gmail.com>
+// SPDX-FileCopyrightText: 2022 Cass Fridkin <cass@cloudflare.com>
+// SPDX-FileCopyrightText: 2022 Mateusz Kowalczyk <fuuzetsu@fuuzetsu.co.uk>
+//
+// SPDX-License-Identifier: MIT OR Apache-2.0
+
+//! An enum mapping type.
+//!
+//! It is implemented using an array type, so using it is as fast as using Rust
+//! arrays.
+//!
+//! # Examples
+//!
+//! ```
+//! use enum_map::{enum_map, Enum, EnumMap};
+//!
+//! #[derive(Debug, Enum)]
+//! enum Example {
+//!     A(bool),
+//!     B,
+//!     C,
+//! }
+//!
+//! let mut map = enum_map! {
+//!     Example::A(false) => 0,
+//!     Example::A(true) => 1,
+//!     Example::B => 2,
+//!     Example::C => 3,
+//! };
+//! map[Example::C] = 4;
+//!
+//! assert_eq!(map[Example::A(true)], 1);
+//!
+//! for (key, &value) in &map {
+//!     println!("{:?} has {} as value.", key, value);
+//! }
+//! ```
+
+
+src\serde.rs
+// SPDX-FileCopyrightText: 2017 - 2023 Kamila Borowska <kamila@borowska.pw>
+// SPDX-FileCopyrightText: 2021 Bruno Corrêa Zimmermann <brunoczim@gmail.com>
+//
+// SPDX-License-Identifier: MIT OR Apache-2.0
+
+
+tests\test.rs
+// SPDX-FileCopyrightText: 2018 - 2022 Kamila Borowska <kamila@borowska.pw>
+// SPDX-FileCopyrightText: 2019 Riey <creeper844@gmail.com>
+// SPDX-FileCopyrightText: 2020 Amanieu d'Antras <amanieu@gmail.com>
+// SPDX-FileCopyrightText: 2021 Bruno Corrêa Zimmermann <brunoczim@gmail.com>
+// SPDX-FileCopyrightText: 2021 micycle
+// SPDX-FileCopyrightText: 2022 Cass Fridkin <cass@cloudflare.com>
+//
+// SPDX-License-Identifier: MIT OR Apache-2.0
+

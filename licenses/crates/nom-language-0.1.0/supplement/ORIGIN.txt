@@ -1,0 +1,3 @@
+Upstream repository: https://github.com/rust-bakery/nom
+Revision: 2cec1b3e4c9ccac62c902d60c00de6d1549ccbe1
+License files retrieved without alteration.

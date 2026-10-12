@@ -1,0 +1,3 @@
+Apache-2.0 selected from the published MIT OR Apache-2.0 expression.
+Copyright headers copied from the published crate source without alteration.
+The standard Apache-2.0 text is reproduced in LICENSE-APACHE.

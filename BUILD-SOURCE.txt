@@ -1,0 +1,29 @@
+BUILD FROM THIS SOURCE REPOSITORY
+
+This repository distributes application source. Cargo.lock pins the dependency
+versions and Git revisions. Cargo downloads those dependencies automatically;
+the vendor ZIP files are not required for this online build.
+
+Windows GNU example (PowerShell):
+
+1. Install Rust 1.98.0-x86_64-pc-windows-gnu, a compatible x64 UCRT GNU C/C++
+   toolchain, LLVM lld and llvm-dlltool. Put their binaries on PATH.
+2. Open PowerShell in this repository and run:
+
+   $env:CC = 'gcc'
+   $env:CXX = 'g++'
+   $env:CARGO_TARGET_X86_64_PC_WINDOWS_GNU_LINKER = 'gcc'
+   $env:RUSTFLAGS = '-C link-arg=-fuse-ld=lld -C dlltool=llvm-dlltool'
+   cargo +1.98.0-x86_64-pc-windows-gnu build --release --locked --no-default-features --bin spotifast
+
+3. The executable is target/release/spotifast.exe. Modify the source and repeat
+   this command to rebuild and relink it. Internet access is needed for the
+   initial dependency download. Do not add --offline before fetching dependencies.
+
+The earlier local Windows build used GCC 16.2.0 / MinGW-w64 14.0.0 UCRT and
+LLVM-MinGW 20261006. The online configuration resolves the same locked code.
+No new full compilation or byte-for-byte reproducibility is claimed here.
+
+Keep LICENSE, font licenses, and third-party notices when redistributing.
+Distributing executables requires fulfilling the applicable corresponding-source
+and relinking requirements as described in the license texts.

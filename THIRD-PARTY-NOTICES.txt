@@ -1,0 +1,3063 @@
+THIRD-PARTY NOTICES - local ivLyrics AdaptiveText edition
+Prepared 2026-10-12. These notices do not replace the individual licenses.
+
+Spotifast: Copyright (c) 2026 Carmine Paolino. MIT License; see LICENSE.
+ivLyrics ALSong adapter: LGPL-2.1-only; see LICENSE and licenses/assets.
+Pretendard JP Variable 1.3.9: Copyright (c) 2021 Kil Hyung-jin.
+Reserved Font Name: Pretendard JP. SIL OFL 1.1; see Pretendard-LICENSE.txt.
+The unmodified font is embedded; no standalone font sale or relicensing.
+
+Application source: this repository. Dependencies are pinned in Cargo.lock and
+retrieved by Cargo. This repository does not bundle an executable or a vendor/
+directory. If distributing executables, fulfill the applicable complete
+corresponding-source and relinking requirements; an application-only snapshot
+is not asserted to meet all executable-distribution requirements.
+No prohibition on personal modifications or reverse engineering for debugging
+such modifications is imposed. See local-distribution-licenses.ko.md.
+
+Dependency inventory follows the locked Windows GNU no-default-features Cargo
+resolution, including build/test dependencies. It is conservative and does not
+assert that every listed package is linked into the final executable.
+All original license expressions and supplied notices are retained.
+For priority-queue we select MPL-2.0; for self_cell, enum-map and enum-map-derive
+we select Apache-2.0. MPL-covered dependencies and their source repositories are listed below.
+Other alternatives retain their upstream license expressions.
+Rust runtime and compiler-runtime license materials are in licenses/toolchain.
+Spotify marks are not granted by these software licenses; see ICON-NOTICE.md.
+
+accesskit 0.24.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/AccessKit/accesskit
+Notices: licenses/crates/accesskit-0.24.1/
+
+accesskit_consumer 0.35.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/AccessKit/accesskit
+Notices: licenses/crates/accesskit_consumer-0.35.0/
+
+accesskit_windows 0.32.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/AccessKit/accesskit
+Notices: licenses/crates/accesskit_windows-0.32.1/
+
+accesskit_winit 0.32.2
+License: Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/AccessKit/accesskit
+Notices: licenses/crates/accesskit_winit-0.32.2/
+
+adler2 2.0.1
+License: 0BSD OR MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/oyvindln/adler2
+Notices: licenses/crates/adler2-2.0.1/
+
+aes 0.8.4
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/block-ciphers
+Notices: licenses/crates/aes-0.8.4/
+
+ahash 0.8.12
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/tkaitchuck/ahash
+Notices: licenses/crates/ahash-0.8.12/
+
+aho-corasick 1.1.5
+License: Unlicense OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/BurntSushi/aho-corasick
+Notices: licenses/crates/aho-corasick-1.1.5/
+
+allocator-api2 0.2.21
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/zakarumych/allocator-api2
+Notices: licenses/crates/allocator-api2-0.2.21/
+
+anstream 1.0.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-cli/anstyle.git
+Notices: licenses/crates/anstream-1.0.0/
+
+anstyle 1.0.14
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-cli/anstyle.git
+Notices: licenses/crates/anstyle-1.0.14/
+
+anstyle-parse 1.0.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-cli/anstyle.git
+Notices: licenses/crates/anstyle-parse-1.0.0/
+
+anstyle-query 1.1.5
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-cli/anstyle.git
+Notices: licenses/crates/anstyle-query-1.1.5/
+
+anstyle-wincon 3.0.11
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-cli/anstyle.git
+Notices: licenses/crates/anstyle-wincon-3.0.11/
+
+anyhow 1.0.104
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dtolnay/anyhow
+Notices: licenses/crates/anyhow-1.0.104/
+
+arboard 3.6.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/1Password/arboard
+Notices: licenses/crates/arboard-3.6.1/
+
+arrayref 0.3.9
+License: BSD-2-Clause
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/droundy/arrayref
+Notices: licenses/crates/arrayref-0.3.9/
+
+arrayvec 0.7.8
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/bluss/arrayvec
+Notices: licenses/crates/arrayvec-0.7.8/
+
+async-compression 0.4.43
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/Nullus157/async-compression
+Notices: licenses/crates/async-compression-0.4.43/
+
+async-trait 0.1.92
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dtolnay/async-trait
+Notices: licenses/crates/async-trait-0.1.92/
+
+atomic-waker 1.1.2
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/smol-rs/atomic-waker
+Notices: licenses/crates/atomic-waker-1.1.2/
+
+autocfg 1.5.1
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/cuviper/autocfg
+Notices: licenses/crates/autocfg-1.5.1/
+
+base64 0.22.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/marshallpierce/rust-base64
+Notices: licenses/crates/base64-0.22.1/
+
+base64ct 1.8.3
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/formats
+Notices: licenses/crates/base64ct-1.8.3/
+
+bit-set 0.10.0
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/contain-rs/bit-set
+Notices: licenses/crates/bit-set-0.10.0/
+
+bit-vec 0.9.1
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/contain-rs/bit-vec
+Notices: licenses/crates/bit-vec-0.9.1/
+
+bitflags 1.3.2
+License: MIT/Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/bitflags/bitflags
+Notices: licenses/crates/bitflags-1.3.2/
+
+bitflags 2.13.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/bitflags/bitflags
+Notices: licenses/crates/bitflags-2.13.1/
+
+block-buffer 0.10.4
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/utils
+Notices: licenses/crates/block-buffer-0.10.4/
+
+block-buffer 0.12.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/utils
+Notices: licenses/crates/block-buffer-0.12.1/
+
+bytemuck 1.25.2
+License: Zlib OR Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/Lokathor/bytemuck
+Notices: licenses/crates/bytemuck-1.25.2/
+
+bytemuck_derive 1.12.0
+License: Zlib OR Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/Lokathor/bytemuck
+Notices: licenses/crates/bytemuck_derive-1.12.0/
+
+byteorder 1.5.0
+License: Unlicense OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/BurntSushi/byteorder
+Notices: licenses/crates/byteorder-1.5.0/
+
+byteorder-lite 0.1.0
+License: Unlicense OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/image-rs/byteorder-lite
+Notices: licenses/crates/byteorder-lite-0.1.0/
+
+bytes 1.12.1
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/tokio-rs/bytes
+Notices: licenses/crates/bytes-1.12.1/
+
+cc 1.4.4
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/cc-rs
+Notices: licenses/crates/cc-1.4.4/
+
+cfg-if 1.0.4
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/cfg-if
+Notices: licenses/crates/cfg-if-1.0.4/
+
+cfg_aliases 0.2.2
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/katharostech/cfg_aliases
+Notices: licenses/crates/cfg_aliases-0.2.2/
+
+chacha20 0.10.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/stream-ciphers
+Notices: licenses/crates/chacha20-0.10.1/
+
+chrono 0.4.45
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/chronotope/chrono
+Notices: licenses/crates/chrono-0.4.45/
+
+cipher 0.4.4
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/traits
+Notices: licenses/crates/cipher-0.4.4/
+
+clap 4.6.6
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/clap-rs/clap
+Notices: licenses/crates/clap-4.6.6/
+
+clap_builder 4.6.6
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/clap-rs/clap
+Notices: licenses/crates/clap_builder-4.6.6/
+
+clap_derive 4.6.4
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/clap-rs/clap
+Notices: licenses/crates/clap_derive-4.6.4/
+
+clap_lex 1.1.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/clap-rs/clap
+Notices: licenses/crates/clap_lex-1.1.0/
+
+clipboard-win 5.4.1
+License: BSL-1.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/DoumanAsh/clipboard-win
+Notices: licenses/crates/clipboard-win-5.4.1/
+
+cmov 0.5.4
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/utils
+Notices: licenses/crates/cmov-0.5.4/
+
+codespan-reporting 0.13.1
+License: Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/brendanzab/codespan
+Notices: licenses/crates/codespan-reporting-0.13.1/
+
+color 0.3.3
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/linebender/color
+Notices: licenses/crates/color-0.3.3/
+
+colorchoice 1.0.5
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-cli/anstyle.git
+Notices: licenses/crates/colorchoice-1.0.5/
+
+compression-codecs 0.4.38
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/Nullus157/async-compression
+Notices: licenses/crates/compression-codecs-0.4.38/
+
+compression-core 0.4.32
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/Nullus157/async-compression
+Notices: licenses/crates/compression-core-0.4.32/
+
+concat-string 1.0.1
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/FaultyRAM/concat-string
+Notices: licenses/crates/concat-string-1.0.1/
+
+const-oid 0.10.2
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/formats
+Notices: licenses/crates/const-oid-0.10.2/
+
+const-oid 0.9.6
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/formats/tree/master/const-oid
+Notices: licenses/crates/const-oid-0.9.6/
+
+cpal 0.18.2
+License: Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustAudio/cpal
+Notices: licenses/crates/cpal-0.18.2/
+
+cpufeatures 0.2.17
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/utils
+Notices: licenses/crates/cpufeatures-0.2.17/
+
+cpufeatures 0.3.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/utils
+Notices: licenses/crates/cpufeatures-0.3.0/
+
+crc32fast 1.5.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/srijs/rust-crc32fast
+Notices: licenses/crates/crc32fast-1.5.1/
+
+crossbeam-channel 0.5.16
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/crossbeam-rs/crossbeam
+Notices: licenses/crates/crossbeam-channel-0.5.16/
+
+crossbeam-utils 0.8.22
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/crossbeam-rs/crossbeam
+Notices: licenses/crates/crossbeam-utils-0.8.22/
+
+crypto-common 0.1.7
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/traits
+Notices: licenses/crates/crypto-common-0.1.7/
+
+crypto-common 0.2.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/traits
+Notices: licenses/crates/crypto-common-0.2.2/
+
+ctr 0.9.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/block-modes
+Notices: licenses/crates/ctr-0.9.2/
+
+ctutils 0.4.2
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/utils
+Notices: licenses/crates/ctutils-0.4.2/
+
+cursor-icon 1.2.0
+License: MIT OR Apache-2.0 OR Zlib
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-windowing/cursor-icon
+Notices: licenses/crates/cursor-icon-1.2.0/
+
+darling 0.20.11
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/TedDriggs/darling
+Notices: licenses/crates/darling-0.20.11/
+
+darling_core 0.20.11
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/TedDriggs/darling
+Notices: licenses/crates/darling_core-0.20.11/
+
+darling_macro 0.20.11
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/TedDriggs/darling
+Notices: licenses/crates/darling_macro-0.20.11/
+
+dasp_sample 0.11.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rustaudio/sample.git
+Notices: licenses/crates/dasp_sample-0.11.0/
+
+data-encoding 2.11.1
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/ia0/data-encoding
+Notices: licenses/crates/data-encoding-2.11.1/
+
+data-url 0.3.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/servo/rust-url
+Notices: licenses/crates/data-url-0.3.2/
+
+defmt 1.1.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/knurling-rs/defmt
+Notices: licenses/crates/defmt-1.1.1/
+
+defmt-macros 1.1.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/knurling-rs/defmt
+Notices: licenses/crates/defmt-macros-1.1.1/
+
+defmt-parser 1.0.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/knurling-rs/defmt
+Notices: licenses/crates/defmt-parser-1.0.0/
+
+der 0.7.10
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/formats/tree/master/der
+Notices: licenses/crates/der-0.7.10/
+
+deranged 0.5.8
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/jhpratt/deranged
+Notices: licenses/crates/deranged-0.5.8/
+
+derive_builder 0.20.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/colin-kiegel/rust-derive-builder
+Notices: licenses/crates/derive_builder-0.20.2/
+
+derive_builder_core 0.20.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/colin-kiegel/rust-derive-builder
+Notices: licenses/crates/derive_builder_core-0.20.2/
+
+derive_builder_macro 0.20.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/colin-kiegel/rust-derive-builder
+Notices: licenses/crates/derive_builder_macro-0.20.2/
+
+digest 0.10.7
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/traits
+Notices: licenses/crates/digest-0.10.7/
+
+digest 0.11.3
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/traits
+Notices: licenses/crates/digest-0.11.3/
+
+directories 6.0.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/soc/directories-rs
+Notices: licenses/crates/directories-6.0.0/
+
+dirs-sys 0.5.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dirs-dev/dirs-sys-rs
+Notices: licenses/crates/dirs-sys-0.5.0/
+
+displaydoc 0.2.7
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/yaahc/displaydoc
+Notices: licenses/crates/displaydoc-0.2.7/
+
+document-features 0.2.12
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/slint-ui/document-features
+Notices: licenses/crates/document-features-0.2.12/
+
+dpi 0.1.1
+License: Apache-2.0
+Source: git+https://github.com/crmne/winit?rev=ed7caa9023f10b397f5b6ec8284a840cbd8a6f65#ed7caa9023f10b397f5b6ec8284a840cbd8a6f65
+Repository: https://github.com/rust-windowing/winit
+Notices: licenses/crates/dpi-0.1.1/
+
+dpi 0.1.2
+License: Apache-2.0 AND MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-windowing/winit
+Notices: licenses/crates/dpi-0.1.2/
+
+ecolor 0.36.1
+License: MIT OR Apache-2.0
+Source: git+https://github.com/crmne/egui?rev=ba6790fe7cf46e58e8d27ce1524cbfdee745e938#ba6790fe7cf46e58e8d27ce1524cbfdee745e938
+Repository: https://github.com/emilk/egui
+Notices: licenses/crates/ecolor-0.36.1/
+
+eframe 0.36.1
+License: MIT OR Apache-2.0
+Source: git+https://github.com/crmne/egui?rev=ba6790fe7cf46e58e8d27ce1524cbfdee745e938#ba6790fe7cf46e58e8d27ce1524cbfdee745e938
+Repository: https://github.com/emilk/egui/tree/main/crates/eframe
+Notices: licenses/crates/eframe-0.36.1/
+
+egui 0.36.1
+License: MIT OR Apache-2.0
+Source: git+https://github.com/crmne/egui?rev=ba6790fe7cf46e58e8d27ce1524cbfdee745e938#ba6790fe7cf46e58e8d27ce1524cbfdee745e938
+Repository: https://github.com/emilk/egui
+Notices: licenses/crates/egui-0.36.1/
+
+egui-wgpu 0.36.1
+License: MIT OR Apache-2.0
+Source: git+https://github.com/crmne/egui?rev=ba6790fe7cf46e58e8d27ce1524cbfdee745e938#ba6790fe7cf46e58e8d27ce1524cbfdee745e938
+Repository: https://github.com/emilk/egui/tree/main/crates/egui-wgpu
+Notices: licenses/crates/egui-wgpu-0.36.1/
+
+egui-winit 0.36.1
+License: MIT OR Apache-2.0
+Source: git+https://github.com/crmne/egui?rev=ba6790fe7cf46e58e8d27ce1524cbfdee745e938#ba6790fe7cf46e58e8d27ce1524cbfdee745e938
+Repository: https://github.com/emilk/egui/tree/main/crates/egui-winit
+Notices: licenses/crates/egui-winit-0.36.1/
+
+egui_extras 0.36.1
+License: MIT OR Apache-2.0
+Source: git+https://github.com/crmne/egui?rev=ba6790fe7cf46e58e8d27ce1524cbfdee745e938#ba6790fe7cf46e58e8d27ce1524cbfdee745e938
+Repository: https://github.com/emilk/egui
+Notices: licenses/crates/egui_extras-0.36.1/
+
+egui_glow 0.36.1
+License: MIT OR Apache-2.0
+Source: git+https://github.com/crmne/egui?rev=ba6790fe7cf46e58e8d27ce1524cbfdee745e938#ba6790fe7cf46e58e8d27ce1524cbfdee745e938
+Repository: https://github.com/emilk/egui/tree/main/crates/egui_glow
+Notices: licenses/crates/egui_glow-0.36.1/
+
+either 1.18.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rayon-rs/either
+Notices: licenses/crates/either-1.18.0/
+
+emath 0.36.1
+License: MIT OR Apache-2.0
+Source: git+https://github.com/crmne/egui?rev=ba6790fe7cf46e58e8d27ce1524cbfdee745e938#ba6790fe7cf46e58e8d27ce1524cbfdee745e938
+Repository: https://github.com/emilk/egui/tree/main/crates/emath
+Notices: licenses/crates/emath-0.36.1/
+
+encoding_rs 0.8.35
+License: (Apache-2.0 OR MIT) AND BSD-3-Clause
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/hsivonen/encoding_rs
+Notices: licenses/crates/encoding_rs-0.8.35/
+
+enum-map 2.7.3
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://codeberg.org/xfix/enum-map
+Notices: licenses/crates/enum-map-2.7.3/
+
+enum-map-derive 0.17.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://codeberg.org/xfix/enum-map
+Notices: licenses/crates/enum-map-derive-0.17.0/
+
+enumn 0.1.14
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dtolnay/enumn
+Notices: licenses/crates/enumn-0.1.14/
+
+env_filter 2.0.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-cli/env_logger
+Notices: licenses/crates/env_filter-2.0.0/
+
+env_logger 0.11.11
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-cli/env_logger
+Notices: licenses/crates/env_logger-0.11.11/
+
+epaint 0.36.1
+License: MIT OR Apache-2.0
+Source: git+https://github.com/crmne/egui?rev=ba6790fe7cf46e58e8d27ce1524cbfdee745e938#ba6790fe7cf46e58e8d27ce1524cbfdee745e938
+Repository: https://github.com/emilk/egui/tree/main/crates/epaint
+Notices: licenses/crates/epaint-0.36.1/
+
+epaint_default_fonts 0.36.1
+License: (MIT OR Apache-2.0) AND OFL-1.1 AND Ubuntu-font-1.0
+Source: git+https://github.com/crmne/egui?rev=ba6790fe7cf46e58e8d27ce1524cbfdee745e938#ba6790fe7cf46e58e8d27ce1524cbfdee745e938
+Repository: https://github.com/emilk/egui/tree/main/crates/epaint_default_fonts
+Notices: licenses/crates/epaint_default_fonts-0.36.1/
+
+equivalent 1.0.2
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/indexmap-rs/equivalent
+Notices: licenses/crates/equivalent-1.0.2/
+
+errno 0.3.14
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/lambda-fairy/rust-errno
+Notices: licenses/crates/errno-0.3.14/
+
+error-code 3.4.0
+License: BSL-1.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/DoumanAsh/error-code
+Notices: licenses/crates/error-code-3.4.0/
+
+euclid 0.22.14
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/servo/euclid
+Notices: licenses/crates/euclid-0.22.14/
+
+fastframe-audio 0.4.1
+License: MIT
+Source: git+https://github.com/crmne/fastframe?tag=v0.4.1#23d87e048185ef317f272e2a67416f516b2f2b04
+Repository: https://github.com/crmne/fastframe
+Notices: licenses/crates/fastframe-audio-0.4.1/
+
+fastframe-emoji 0.4.1
+License: MIT
+Source: git+https://github.com/crmne/fastframe?tag=v0.4.1#23d87e048185ef317f272e2a67416f516b2f2b04
+Repository: https://github.com/crmne/fastframe
+Notices: licenses/crates/fastframe-emoji-0.4.1/
+
+fastframe-fonts 0.4.1
+License: MIT AND OFL-1.1
+Source: git+https://github.com/crmne/fastframe?tag=v0.4.1#23d87e048185ef317f272e2a67416f516b2f2b04
+Repository: https://github.com/crmne/fastframe
+Notices: licenses/crates/fastframe-fonts-0.4.1/
+
+fastframe-i18n 0.4.1
+License: MIT
+Source: git+https://github.com/crmne/fastframe?tag=v0.4.1#23d87e048185ef317f272e2a67416f516b2f2b04
+Repository: https://github.com/crmne/fastframe
+Notices: licenses/crates/fastframe-i18n-0.4.1/
+
+fastframe-icons 0.4.1
+License: MIT AND ISC
+Source: git+https://github.com/crmne/fastframe?tag=v0.4.1#23d87e048185ef317f272e2a67416f516b2f2b04
+Repository: https://github.com/crmne/fastframe
+Notices: licenses/crates/fastframe-icons-0.4.1/
+
+fastframe-instance 0.4.1
+License: MIT
+Source: git+https://github.com/crmne/fastframe?tag=v0.4.1#23d87e048185ef317f272e2a67416f516b2f2b04
+Repository: https://github.com/crmne/fastframe
+Notices: licenses/crates/fastframe-instance-0.4.1/
+
+fastframe-log 0.4.1
+License: MIT
+Source: git+https://github.com/crmne/fastframe?tag=v0.4.1#23d87e048185ef317f272e2a67416f516b2f2b04
+Repository: https://github.com/crmne/fastframe
+Notices: licenses/crates/fastframe-log-0.4.1/
+
+fastframe-macos 0.4.1
+License: MIT
+Source: git+https://github.com/crmne/fastframe?tag=v0.4.1#23d87e048185ef317f272e2a67416f516b2f2b04
+Repository: https://github.com/crmne/fastframe
+Notices: licenses/crates/fastframe-macos-0.4.1/
+
+fastframe-now-playing 0.4.1
+License: MIT
+Source: git+https://github.com/crmne/fastframe?tag=v0.4.1#23d87e048185ef317f272e2a67416f516b2f2b04
+Repository: https://github.com/crmne/fastframe
+Notices: licenses/crates/fastframe-now-playing-0.4.1/
+
+fastframe-scroll 0.4.1
+License: MIT
+Source: git+https://github.com/crmne/fastframe?tag=v0.4.1#23d87e048185ef317f272e2a67416f516b2f2b04
+Repository: https://github.com/crmne/fastframe
+Notices: licenses/crates/fastframe-scroll-0.4.1/
+
+fastframe-shell 0.4.1
+License: MIT
+Source: git+https://github.com/crmne/fastframe?tag=v0.4.1#23d87e048185ef317f272e2a67416f516b2f2b04
+Repository: https://github.com/crmne/fastframe
+Notices: licenses/crates/fastframe-shell-0.4.1/
+
+fastframe-text 0.4.1
+License: MIT
+Source: git+https://github.com/crmne/fastframe?tag=v0.4.1#23d87e048185ef317f272e2a67416f516b2f2b04
+Repository: https://github.com/crmne/fastframe
+Notices: licenses/crates/fastframe-text-0.4.1/
+
+fastframe-theme 0.4.1
+License: MIT
+Source: git+https://github.com/crmne/fastframe?tag=v0.4.1#23d87e048185ef317f272e2a67416f516b2f2b04
+Repository: https://github.com/crmne/fastframe
+Notices: licenses/crates/fastframe-theme-0.4.1/
+
+fastframe-tray 0.4.1
+License: MIT
+Source: git+https://github.com/crmne/fastframe?tag=v0.4.1#23d87e048185ef317f272e2a67416f516b2f2b04
+Repository: https://github.com/crmne/fastframe
+Notices: licenses/crates/fastframe-tray-0.4.1/
+
+fastframe-update 0.4.1
+License: MIT
+Source: git+https://github.com/crmne/fastframe?tag=v0.4.1#23d87e048185ef317f272e2a67416f516b2f2b04
+Repository: https://github.com/crmne/fastframe
+Notices: licenses/crates/fastframe-update-0.4.1/
+
+fastrand 2.5.0
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/smol-rs/fastrand
+Notices: licenses/crates/fastrand-2.5.0/
+
+fax 0.2.7
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/pdf-rs/fax
+Notices: licenses/crates/fax-0.2.7/
+
+fdeflate 0.3.7
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/image-rs/fdeflate
+Notices: licenses/crates/fdeflate-0.3.7/
+
+fearless_simd 0.4.1
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/linebender/fearless_simd
+Notices: licenses/crates/fearless_simd-0.4.1/
+
+find-msvc-tools 0.1.11
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/cc-rs
+Notices: licenses/crates/find-msvc-tools-0.1.11/
+
+flate2 1.1.9
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/flate2-rs
+Notices: licenses/crates/flate2-1.1.9/
+
+float-cmp 0.9.0
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/mikedilger/float-cmp
+Notices: licenses/crates/float-cmp-0.9.0/
+
+flume 0.12.0
+License: Apache-2.0/MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/zesterer/flume
+Notices: licenses/crates/flume-0.12.0/
+
+fnv 1.0.7
+License: Apache-2.0 / MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/servo/rust-fnv
+Notices: licenses/crates/fnv-1.0.7/
+
+foldhash 0.2.0
+License: Zlib
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/orlp/foldhash
+Notices: licenses/crates/foldhash-0.2.0/
+
+font-types 0.12.4
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/googlefonts/fontations
+Notices: licenses/crates/font-types-0.12.4/
+
+form_urlencoded 1.2.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/servo/rust-url
+Notices: licenses/crates/form_urlencoded-1.2.2/
+
+futures-channel 0.3.34
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/futures-rs
+Notices: licenses/crates/futures-channel-0.3.34/
+
+futures-core 0.3.34
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/futures-rs
+Notices: licenses/crates/futures-core-0.3.34/
+
+futures-io 0.3.34
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/futures-rs
+Notices: licenses/crates/futures-io-0.3.34/
+
+futures-macro 0.3.34
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/futures-rs
+Notices: licenses/crates/futures-macro-0.3.34/
+
+futures-sink 0.3.34
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/futures-rs
+Notices: licenses/crates/futures-sink-0.3.34/
+
+futures-task 0.3.34
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/futures-rs
+Notices: licenses/crates/futures-task-0.3.34/
+
+futures-timer 3.0.4
+License: MIT/Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/async-rs/futures-timer
+Notices: licenses/crates/futures-timer-3.0.4/
+
+futures-util 0.3.34
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/futures-rs
+Notices: licenses/crates/futures-util-0.3.34/
+
+generic-array 0.14.7
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/fizyk20/generic-array.git
+Notices: licenses/crates/generic-array-0.14.7/
+
+getrandom 0.2.17
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-random/getrandom
+Notices: licenses/crates/getrandom-0.2.17/
+
+getrandom 0.3.4
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-random/getrandom
+Notices: licenses/crates/getrandom-0.3.4/
+
+getrandom 0.4.3
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-random/getrandom
+Notices: licenses/crates/getrandom-0.4.3/
+
+gl_generator 0.14.0
+License: Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/brendanzab/gl-rs/
+Notices: licenses/crates/gl_generator-0.14.0/
+
+glifo 0.2.0
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/linebender/vello
+Notices: licenses/crates/glifo-0.2.0/
+
+glow 0.17.0
+License: MIT OR Apache-2.0 OR Zlib
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/grovesNL/glow
+Notices: licenses/crates/glow-0.17.0/
+
+glutin 0.32.3
+License: Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-windowing/glutin
+Notices: licenses/crates/glutin-0.32.3/
+
+glutin-winit 0.5.0
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-windowing/glutin
+Notices: licenses/crates/glutin-winit-0.5.0/
+
+glutin_egl_sys 0.7.1
+License: Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-windowing/glutin
+Notices: licenses/crates/glutin_egl_sys-0.7.1/
+
+glutin_wgl_sys 0.6.1
+License: Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-windowing/glutin
+Notices: licenses/crates/glutin_wgl_sys-0.6.1/
+
+governor 0.10.4
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/boinkor-net/governor.git
+Notices: licenses/crates/governor-0.10.4/
+
+guillotiere 0.7.0
+License: MIT/Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/nical/guillotiere
+Notices: licenses/crates/guillotiere-0.7.0/
+
+h2 0.4.19
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/hyperium/h2
+Notices: licenses/crates/h2-0.4.19/
+
+half 2.7.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/VoidStarKat/half-rs
+Notices: licenses/crates/half-2.7.1/
+
+harfrust 0.12.0
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/harfbuzz/harfrust
+Notices: licenses/crates/harfrust-0.12.0/
+
+hashbrown 0.16.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/hashbrown
+Notices: licenses/crates/hashbrown-0.16.1/
+
+hashbrown 0.17.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/hashbrown
+Notices: licenses/crates/hashbrown-0.17.1/
+
+headers 0.4.1
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/hyperium/headers
+Notices: licenses/crates/headers-0.4.1/
+
+headers-core 0.3.0
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/hyperium/headers
+Notices: licenses/crates/headers-core-0.3.0/
+
+heck 0.5.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/withoutboats/heck
+Notices: licenses/crates/heck-0.5.0/
+
+hmac 0.12.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/MACs
+Notices: licenses/crates/hmac-0.12.1/
+
+home 0.5.12
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/cargo
+Notices: licenses/crates/home-0.5.12/
+
+http 1.5.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/hyperium/http
+Notices: licenses/crates/http-1.5.0/
+
+http-body 1.1.0
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/hyperium/http-body
+Notices: licenses/crates/http-body-1.1.0/
+
+http-body-util 0.1.5
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/hyperium/http-body
+Notices: licenses/crates/http-body-util-0.1.5/
+
+httparse 1.10.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/seanmonstar/httparse
+Notices: licenses/crates/httparse-1.10.1/
+
+httpdate 1.0.3
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/pyfisch/httpdate
+Notices: licenses/crates/httpdate-1.0.3/
+
+hybrid-array 0.4.15
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/hybrid-array
+Notices: licenses/crates/hybrid-array-0.4.15/
+
+hyper 1.11.0
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/hyperium/hyper
+Notices: licenses/crates/hyper-1.11.0/
+
+hyper-proxy2 0.1.0
+License: MIT
+Source: git+https://github.com/crmne/hyper-proxy2?rev=efca4811371ddae81c06be168de54194938d70b1#efca4811371ddae81c06be168de54194938d70b1
+Repository: https://github.com/siketyan/hyper-proxy2
+Notices: licenses/crates/hyper-proxy2-0.1.0/
+
+hyper-rustls 0.27.9
+License: Apache-2.0 OR ISC OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rustls/hyper-rustls
+Notices: licenses/crates/hyper-rustls-0.27.9/
+
+hyper-util 0.1.20
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/hyperium/hyper-util
+Notices: licenses/crates/hyper-util-0.1.20/
+
+icu_collections 2.3.0
+License: Unicode-3.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-org/icu4x
+Notices: licenses/crates/icu_collections-2.3.0/
+
+icu_locale_core 2.3.0
+License: Unicode-3.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-org/icu4x
+Notices: licenses/crates/icu_locale_core-2.3.0/
+
+icu_normalizer 2.3.0
+License: Unicode-3.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-org/icu4x
+Notices: licenses/crates/icu_normalizer-2.3.0/
+
+icu_normalizer_data 2.3.0
+License: Unicode-3.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-org/icu4x
+Notices: licenses/crates/icu_normalizer_data-2.3.0/
+
+icu_properties 2.3.0
+License: Unicode-3.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-org/icu4x
+Notices: licenses/crates/icu_properties-2.3.0/
+
+icu_properties_data 2.3.0
+License: Unicode-3.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-org/icu4x
+Notices: licenses/crates/icu_properties_data-2.3.0/
+
+icu_provider 2.3.1
+License: Unicode-3.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-org/icu4x
+Notices: licenses/crates/icu_provider-2.3.1/
+
+ident_case 1.0.1
+License: MIT/Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/TedDriggs/ident_case
+Notices: licenses/crates/ident_case-1.0.1/
+
+idna 1.1.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/servo/rust-url/
+Notices: licenses/crates/idna-1.1.0/
+
+idna_adapter 1.2.2
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/hsivonen/idna_adapter
+Notices: licenses/crates/idna_adapter-1.2.2/
+
+if-addrs 0.15.0
+License: MIT OR BSD-3-Clause
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/messense/if-addrs
+Notices: licenses/crates/if-addrs-0.15.0/
+
+image 0.25.10
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/image-rs/image
+Notices: licenses/crates/image-0.25.10/
+
+imagesize 0.13.0
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/Roughsketch/imagesize
+Notices: licenses/crates/imagesize-0.13.0/
+
+include-po 0.2.1
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rodrigorc/include-po
+Notices: licenses/crates/include-po-0.2.1/
+
+indexmap 2.14.0
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/indexmap-rs/indexmap
+Notices: licenses/crates/indexmap-2.14.0/
+
+inout 0.1.4
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/utils
+Notices: licenses/crates/inout-0.1.4/
+
+ipnet 2.12.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/krisprice/ipnet
+Notices: licenses/crates/ipnet-2.12.1/
+
+is_terminal_polyfill 1.70.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/polyfill-rs/is_terminal_polyfill
+Notices: licenses/crates/is_terminal_polyfill-1.70.2/
+
+itertools 0.15.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-itertools/itertools
+Notices: licenses/crates/itertools-0.15.0/
+
+itoa 1.0.18
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dtolnay/itoa
+Notices: licenses/crates/itoa-1.0.18/
+
+jiff 0.2.35
+License: Unlicense OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/BurntSushi/jiff
+Notices: licenses/crates/jiff-0.2.35/
+
+jiff-core 0.1.0
+License: Unlicense OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/BurntSushi/jiff
+Notices: licenses/crates/jiff-core-0.1.0/
+
+jiff-static 0.2.35
+License: Unlicense OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/BurntSushi/jiff
+Notices: licenses/crates/jiff-static-0.2.35/
+
+jiff-tzdb 0.1.8
+License: Unlicense OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/BurntSushi/jiff
+Notices: licenses/crates/jiff-tzdb-0.1.8/
+
+jiff-tzdb-platform 0.1.3
+License: Unlicense OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/BurntSushi/jiff
+Notices: licenses/crates/jiff-tzdb-platform-0.1.3/
+
+jobserver 0.1.35
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/jobserver-rs
+Notices: licenses/crates/jobserver-0.1.35/
+
+keyboard-types 0.8.3
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-windowing/keyboard-types
+Notices: licenses/crates/keyboard-types-0.8.3/
+
+keyring-core 1.0.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/open-source-cooperative/keyring-core.git
+Notices: licenses/crates/keyring-core-1.0.0/
+
+khronos_api 3.1.0
+License: Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/brendanzab/gl-rs/
+Notices: licenses/crates/khronos_api-3.1.0/
+
+kurbo 0.11.3
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/linebender/kurbo
+Notices: licenses/crates/kurbo-0.11.3/
+
+kurbo 0.13.1
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/linebender/kurbo
+Notices: licenses/crates/kurbo-0.13.1/
+
+lazy_static 1.5.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang-nursery/lazy-static.rs
+Notices: licenses/crates/lazy_static-1.5.0/
+
+libc 0.2.189
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/libc
+Notices: licenses/crates/libc-0.2.189/
+
+libloading 0.8.9
+License: ISC
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/nagisa/rust_libloading/
+Notices: licenses/crates/libloading-0.8.9/
+
+libm 0.2.16
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/compiler-builtins
+Notices: licenses/crates/libm-0.2.16/
+
+libpulse-binding 2.30.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/jnqnfe/pulse-binding-rust
+Notices: licenses/crates/libpulse-binding-2.30.1/
+
+libpulse-simple-binding 2.29.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/jnqnfe/pulse-binding-rust
+Notices: licenses/crates/libpulse-simple-binding-2.29.0/
+
+libpulse-simple-sys 1.22.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/jnqnfe/pulse-binding-rust
+Notices: licenses/crates/libpulse-simple-sys-1.22.0/
+
+libpulse-sys 1.23.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/jnqnfe/pulse-binding-rust
+Notices: licenses/crates/libpulse-sys-1.23.0/
+
+librespot-audio 0.8.0
+License: MIT
+Source: git+https://github.com/crmne/librespot?rev=23fc42cff37848e51f0d8eaefad1a93941b71e59#23fc42cff37848e51f0d8eaefad1a93941b71e59
+Repository: https://github.com/librespot-org/librespot
+Notices: licenses/crates/librespot-audio-0.8.0/
+
+librespot-connect 0.8.0
+License: MIT
+Source: git+https://github.com/crmne/librespot?rev=23fc42cff37848e51f0d8eaefad1a93941b71e59#23fc42cff37848e51f0d8eaefad1a93941b71e59
+Repository: https://github.com/librespot-org/librespot
+Notices: licenses/crates/librespot-connect-0.8.0/
+
+librespot-core 0.8.0
+License: MIT
+Source: git+https://github.com/crmne/librespot?rev=23fc42cff37848e51f0d8eaefad1a93941b71e59#23fc42cff37848e51f0d8eaefad1a93941b71e59
+Repository: https://github.com/librespot-org/librespot
+Notices: licenses/crates/librespot-core-0.8.0/
+
+librespot-metadata 0.8.0
+License: MIT
+Source: git+https://github.com/crmne/librespot?rev=23fc42cff37848e51f0d8eaefad1a93941b71e59#23fc42cff37848e51f0d8eaefad1a93941b71e59
+Repository: https://github.com/librespot-org/librespot
+Notices: licenses/crates/librespot-metadata-0.8.0/
+
+librespot-oauth 0.8.0
+License: MIT
+Source: git+https://github.com/crmne/librespot?rev=23fc42cff37848e51f0d8eaefad1a93941b71e59#23fc42cff37848e51f0d8eaefad1a93941b71e59
+Repository: https://github.com/librespot-org/librespot
+Notices: licenses/crates/librespot-oauth-0.8.0/
+
+librespot-playback 0.8.0
+License: MIT
+Source: git+https://github.com/crmne/librespot?rev=23fc42cff37848e51f0d8eaefad1a93941b71e59#23fc42cff37848e51f0d8eaefad1a93941b71e59
+Repository: https://github.com/librespot-org/librespot
+Notices: licenses/crates/librespot-playback-0.8.0/
+
+librespot-protocol 0.8.0
+License: MIT
+Source: git+https://github.com/crmne/librespot?rev=23fc42cff37848e51f0d8eaefad1a93941b71e59#23fc42cff37848e51f0d8eaefad1a93941b71e59
+Repository: https://github.com/librespot-org/librespot
+Notices: licenses/crates/librespot-protocol-0.8.0/
+
+linebender_resource_handle 0.1.1
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/linebender/raw_resource_handle
+Notices: licenses/crates/linebender_resource_handle-0.1.1/
+
+linereader 0.4.0
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/Freaky/rust-linereader.git
+Notices: licenses/crates/linereader-0.4.0/
+
+litemap 0.8.3
+License: Unicode-3.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-org/icu4x
+Notices: licenses/crates/litemap-0.8.3/
+
+litrs 1.0.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/LukasKalbertodt/litrs
+Notices: licenses/crates/litrs-1.0.0/
+
+lock_api 0.4.14
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/Amanieu/parking_lot
+Notices: licenses/crates/lock_api-0.4.14/
+
+log 0.4.34
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/log
+Notices: licenses/crates/log-0.4.34/
+
+lru-slab 0.1.2
+License: MIT OR Apache-2.0 OR Zlib
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/Ralith/lru-slab
+Notices: licenses/crates/lru-slab-0.1.2/
+
+mdns-sd 0.21.0
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/keepsimple1/mdns-sd
+Notices: licenses/crates/mdns-sd-0.21.0/
+
+memchr 2.8.3
+License: Unlicense OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/BurntSushi/memchr
+Notices: licenses/crates/memchr-2.8.3/
+
+memmap2 0.9.11
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RazrFalcon/memmap2-rs
+Notices: licenses/crates/memmap2-0.9.11/
+
+mime 0.3.17
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/hyperium/mime
+Notices: licenses/crates/mime-0.3.17/
+
+mime_guess2 2.3.1
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/ttys3/mime_guess2
+Notices: licenses/crates/mime_guess2-2.3.1/
+
+miniz_oxide 0.8.9
+License: MIT OR Zlib OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide
+Notices: licenses/crates/miniz_oxide-0.8.9/
+
+mio 1.2.2
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/tokio-rs/mio
+Notices: licenses/crates/mio-1.2.2/
+
+moxcms 0.8.1
+License: BSD-3-Clause OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/awxkee/moxcms.git
+Notices: licenses/crates/moxcms-0.8.1/
+
+muda 0.20.0
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/tauri-apps/muda
+Notices: licenses/crates/muda-0.20.0/
+
+naga 30.0.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/gfx-rs/wgpu
+Notices: licenses/crates/naga-30.0.1/
+
+naga-types 30.0.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/gfx-rs/wgpu
+Notices: licenses/crates/naga-types-30.0.1/
+
+nohash-hasher 0.2.0
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/paritytech/nohash-hasher
+Notices: licenses/crates/nohash-hasher-0.2.0/
+
+nom 8.0.0
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-bakery/nom
+Notices: licenses/crates/nom-8.0.0/
+
+nom-language 0.1.0
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-bakery/nom
+Notices: licenses/crates/nom-language-0.1.0/
+
+nonzero_ext 0.3.0
+License: Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/antifuchs/nonzero_ext
+Notices: licenses/crates/nonzero_ext-0.3.0/
+
+ntapi 0.4.3
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/MSxDOS/ntapi
+Notices: licenses/crates/ntapi-0.4.3/
+
+num-bigint 0.4.8
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-num/num-bigint
+Notices: licenses/crates/num-bigint-0.4.8/
+
+num-bigint-dig 0.8.6
+License: MIT/Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dignifiedquire/num-bigint
+Notices: licenses/crates/num-bigint-dig-0.8.6/
+
+num-conv 0.2.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/jhpratt/num-conv
+Notices: licenses/crates/num-conv-0.2.2/
+
+num-derive 0.4.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-num/num-derive
+Notices: licenses/crates/num-derive-0.4.2/
+
+num-integer 0.1.47
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-num/num-integer
+Notices: licenses/crates/num-integer-0.1.47/
+
+num-iter 0.1.46
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-num/num-iter
+Notices: licenses/crates/num-iter-0.1.46/
+
+num-rational 0.4.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-num/num-rational
+Notices: licenses/crates/num-rational-0.4.2/
+
+num-traits 0.2.19
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-num/num-traits
+Notices: licenses/crates/num-traits-0.2.19/
+
+oauth2 5.0.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/ramosbugs/oauth2-rs
+Notices: licenses/crates/oauth2-5.0.0/
+
+once_cell 1.21.4
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/matklad/once_cell
+Notices: licenses/crates/once_cell-1.21.4/
+
+once_cell_polyfill 1.70.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/polyfill-rs/once_cell_polyfill
+Notices: licenses/crates/once_cell_polyfill-1.70.2/
+
+open 5.4.2
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/Byron/open-rs
+Notices: licenses/crates/open-5.4.2/
+
+option-ext 0.2.0
+License: MPL-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/soc/option-ext.git
+Notices: licenses/crates/option-ext-0.2.0/
+
+parking_lot 0.12.5
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/Amanieu/parking_lot
+Notices: licenses/crates/parking_lot-0.12.5/
+
+parking_lot_core 0.9.12
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/Amanieu/parking_lot
+Notices: licenses/crates/parking_lot_core-0.9.12/
+
+pbkdf2 0.12.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/password-hashes/tree/master/pbkdf2
+Notices: licenses/crates/pbkdf2-0.12.2/
+
+pem-rfc7468 0.7.0
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/formats/tree/master/pem-rfc7468
+Notices: licenses/crates/pem-rfc7468-0.7.0/
+
+peniko 0.6.1
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/linebender/peniko
+Notices: licenses/crates/peniko-0.6.1/
+
+percent-encoding 2.3.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/servo/rust-url/
+Notices: licenses/crates/percent-encoding-2.3.2/
+
+phf 0.11.3
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-phf/rust-phf
+Notices: licenses/crates/phf-0.11.3/
+
+phf_generator 0.11.3
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-phf/rust-phf
+Notices: licenses/crates/phf_generator-0.11.3/
+
+phf_macros 0.11.3
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-phf/rust-phf
+Notices: licenses/crates/phf_macros-0.11.3/
+
+phf_shared 0.11.3
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-phf/rust-phf
+Notices: licenses/crates/phf_shared-0.11.3/
+
+pico-args 0.5.0
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RazrFalcon/pico-args
+Notices: licenses/crates/pico-args-0.5.0/
+
+pin-project-lite 0.2.17
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/taiki-e/pin-project-lite
+Notices: licenses/crates/pin-project-lite-0.2.17/
+
+pkcs1 0.7.5
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/formats/tree/master/pkcs1
+Notices: licenses/crates/pkcs1-0.7.5/
+
+pkcs8 0.10.2
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/formats/tree/master/pkcs8
+Notices: licenses/crates/pkcs8-0.10.2/
+
+pkg-config 0.3.34
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/pkg-config-rs
+Notices: licenses/crates/pkg-config-0.3.34/
+
+png 0.17.16
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/image-rs/image-png
+Notices: licenses/crates/png-0.17.16/
+
+png 0.18.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/image-rs/image-png
+Notices: licenses/crates/png-0.18.1/
+
+polib 0.3.0
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/brettdong/polib
+Notices: licenses/crates/polib-0.3.0/
+
+polycool 0.4.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/linebender/kurbo
+Notices: licenses/crates/polycool-0.4.0/
+
+portable-atomic 1.15.0
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/taiki-e/portable-atomic
+Notices: licenses/crates/portable-atomic-1.15.0/
+
+potential_utf 0.1.6
+License: Unicode-3.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-org/icu4x
+Notices: licenses/crates/potential_utf-0.1.6/
+
+powerfmt 0.2.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/jhpratt/powerfmt
+Notices: licenses/crates/powerfmt-0.2.0/
+
+ppv-lite86 0.2.21
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/cryptocorrosion/cryptocorrosion
+Notices: licenses/crates/ppv-lite86-0.2.21/
+
+priority-queue 2.7.0
+License: LGPL-3.0-or-later OR MPL-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/garro95/priority-queue
+Notices: licenses/crates/priority-queue-2.7.0/
+
+proc-macro2 1.0.107
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dtolnay/proc-macro2
+Notices: licenses/crates/proc-macro2-1.0.107/
+
+profiling 1.0.18
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/aclysma/profiling
+Notices: licenses/crates/profiling-1.0.18/
+
+protobuf 3.7.2
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/stepancheg/rust-protobuf/
+Notices: licenses/crates/protobuf-3.7.2/
+
+protobuf-codegen 3.7.2
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/stepancheg/rust-protobuf/
+Notices: licenses/crates/protobuf-codegen-3.7.2/
+
+protobuf-json-mapping 3.7.2
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/stepancheg/rust-protobuf/
+Notices: licenses/crates/protobuf-json-mapping-3.7.2/
+
+protobuf-parse 3.7.2
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/stepancheg/rust-protobuf/tree/master/protobuf-parse/
+Notices: licenses/crates/protobuf-parse-3.7.2/
+
+protobuf-support 3.7.2
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/stepancheg/rust-protobuf/
+Notices: licenses/crates/protobuf-support-3.7.2/
+
+pxfm 0.1.30
+License: BSD-3-Clause OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/awxkee/pxfm
+Notices: licenses/crates/pxfm-0.1.30/
+
+quick-error 2.0.1
+License: MIT/Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: http://github.com/tailhook/quick-error
+Notices: licenses/crates/quick-error-2.0.1/
+
+quick-xml 0.38.4
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/tafia/quick-xml
+Notices: licenses/crates/quick-xml-0.38.4/
+
+quinn 0.11.11
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/quinn-rs/quinn
+Notices: licenses/crates/quinn-0.11.11/
+
+quinn-proto 0.11.17
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/quinn-rs/quinn
+Notices: licenses/crates/quinn-proto-0.11.17/
+
+quinn-udp 0.5.15
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/quinn-rs/quinn
+Notices: licenses/crates/quinn-udp-0.5.15/
+
+quote 1.0.47
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dtolnay/quote
+Notices: licenses/crates/quote-1.0.47/
+
+rand 0.10.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-random/rand
+Notices: licenses/crates/rand-0.10.2/
+
+rand 0.8.8
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-random/rand
+Notices: licenses/crates/rand-0.8.8/
+
+rand 0.9.5
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-random/rand
+Notices: licenses/crates/rand-0.9.5/
+
+rand_chacha 0.3.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-random/rand
+Notices: licenses/crates/rand_chacha-0.3.1/
+
+rand_chacha 0.9.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-random/rand
+Notices: licenses/crates/rand_chacha-0.9.0/
+
+rand_core 0.10.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-random/rand_core
+Notices: licenses/crates/rand_core-0.10.1/
+
+rand_core 0.6.4
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-random/rand
+Notices: licenses/crates/rand_core-0.6.4/
+
+rand_core 0.9.5
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-random/rand
+Notices: licenses/crates/rand_core-0.9.5/
+
+rand_distr 0.5.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-random/rand_distr
+Notices: licenses/crates/rand_distr-0.5.1/
+
+rand_pcg 0.10.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-random/rngs
+Notices: licenses/crates/rand_pcg-0.10.2/
+
+raw-window-handle 0.6.2
+License: MIT OR Apache-2.0 OR Zlib
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-windowing/raw-window-handle
+Notices: licenses/crates/raw-window-handle-0.6.2/
+
+read-fonts 0.41.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/googlefonts/fontations
+Notices: licenses/crates/read-fonts-0.41.0/
+
+regex 1.13.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/regex
+Notices: licenses/crates/regex-1.13.1/
+
+regex-automata 0.4.18
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/regex
+Notices: licenses/crates/regex-automata-0.4.18/
+
+regex-syntax 0.8.11
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/regex
+Notices: licenses/crates/regex-syntax-0.8.11/
+
+renderdoc-sys 1.1.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/ebkalderon/renderdoc-rs
+Notices: licenses/crates/renderdoc-sys-1.1.0/
+
+reqwest 0.12.28
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/seanmonstar/reqwest
+Notices: licenses/crates/reqwest-0.12.28/
+
+resvg 0.45.1
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/linebender/resvg
+Notices: licenses/crates/resvg-0.45.1/
+
+rfd 0.17.2
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/PolyMeilex/rfd
+Notices: licenses/crates/rfd-0.17.2/
+
+rgb 0.8.53
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/kornelski/rust-rgb
+Notices: licenses/crates/rgb-0.8.53/
+
+ring 0.17.14
+License: Apache-2.0 AND ISC
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/briansmith/ring
+Notices: licenses/crates/ring-0.17.14/
+
+rodio 0.21.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustAudio/rodio
+Notices: licenses/crates/rodio-0.21.1/
+
+ron 0.12.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/ron-rs/ron
+Notices: licenses/crates/ron-0.12.2/
+
+roxmltree 0.20.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RazrFalcon/roxmltree
+Notices: licenses/crates/roxmltree-0.20.0/
+
+rsa 0.9.10
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/RSA
+Notices: licenses/crates/rsa-0.9.10/
+
+rustc-hash 1.1.0
+License: Apache-2.0/MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang-nursery/rustc-hash
+Notices: licenses/crates/rustc-hash-1.1.0/
+
+rustc-hash 2.1.3
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/rustc-hash
+Notices: licenses/crates/rustc-hash-2.1.3/
+
+rustix 0.38.44
+License: Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/bytecodealliance/rustix
+Notices: licenses/crates/rustix-0.38.44/
+
+rustls 0.23.43
+License: Apache-2.0 OR ISC OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rustls/rustls
+Notices: licenses/crates/rustls-0.23.43/
+
+rustls-native-certs 0.8.4
+License: Apache-2.0 OR ISC OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rustls/rustls-native-certs
+Notices: licenses/crates/rustls-native-certs-0.8.4/
+
+rustls-pki-types 1.15.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rustls/pki-types
+Notices: licenses/crates/rustls-pki-types-1.15.1/
+
+rustls-webpki 0.103.15
+License: ISC
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rustls/webpki
+Notices: licenses/crates/rustls-webpki-0.103.15/
+
+rustversion 1.0.23
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dtolnay/rustversion
+Notices: licenses/crates/rustversion-1.0.23/
+
+ryu 1.0.23
+License: Apache-2.0 OR BSL-1.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dtolnay/ryu
+Notices: licenses/crates/ryu-1.0.23/
+
+schannel 0.1.29
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/steffengy/schannel-rs
+Notices: licenses/crates/schannel-0.1.29/
+
+scopeguard 1.2.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/bluss/scopeguard
+Notices: licenses/crates/scopeguard-1.2.0/
+
+self_cell 1.3.0
+License: Apache-2.0 OR GPL-2.0-only
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/Voultapher/self_cell
+Notices: licenses/crates/self_cell-1.3.0/
+
+serde 1.0.229
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/serde-rs/serde
+Notices: licenses/crates/serde-1.0.229/
+
+serde_core 1.0.229
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/serde-rs/serde
+Notices: licenses/crates/serde_core-1.0.229/
+
+serde_derive 1.0.229
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/serde-rs/serde
+Notices: licenses/crates/serde_derive-1.0.229/
+
+serde_json 1.0.151
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/serde-rs/json
+Notices: licenses/crates/serde_json-1.0.151/
+
+serde_path_to_error 0.1.20
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dtolnay/path-to-error
+Notices: licenses/crates/serde_path_to_error-0.1.20/
+
+serde_spanned 1.1.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/toml-rs/toml
+Notices: licenses/crates/serde_spanned-1.1.1/
+
+serde_urlencoded 0.7.1
+License: MIT/Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/nox/serde_urlencoded
+Notices: licenses/crates/serde_urlencoded-0.7.1/
+
+sha1 0.10.7
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/hashes
+Notices: licenses/crates/sha1-0.10.7/
+
+sha2 0.10.9
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/hashes
+Notices: licenses/crates/sha2-0.10.9/
+
+sha2 0.11.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/hashes
+Notices: licenses/crates/sha2-0.11.0/
+
+shannon 0.2.0
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: None
+Notices: licenses/crates/shannon-0.2.0/
+
+shell-words 1.1.1
+License: MIT/Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/tmiasko/shell-words
+Notices: licenses/crates/shell-words-1.1.1/
+
+shlex 2.0.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/comex/rust-shlex
+Notices: licenses/crates/shlex-2.0.1/
+
+signature 2.2.0
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/traits/tree/master/signature
+Notices: licenses/crates/signature-2.2.0/
+
+simd-adler32 0.3.10
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/mcountryman/simd-adler32
+Notices: licenses/crates/simd-adler32-0.3.10/
+
+simplecss 0.2.2
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/linebender/simplecss
+Notices: licenses/crates/simplecss-0.2.2/
+
+siphasher 1.0.3
+License: MIT/Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/jedisct1/rust-siphash
+Notices: licenses/crates/siphasher-1.0.3/
+
+skrifa 0.44.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/googlefonts/fontations
+Notices: licenses/crates/skrifa-0.44.0/
+
+slab 0.4.12
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/tokio-rs/slab
+Notices: licenses/crates/slab-0.4.12/
+
+smallvec 1.15.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/servo/rust-smallvec
+Notices: licenses/crates/smallvec-1.15.2/
+
+smol_str 0.2.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-analyzer/smol_str
+Notices: licenses/crates/smol_str-0.2.2/
+
+socket-pktinfo 0.4.1
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/pixsper/socket-pktinfo
+Notices: licenses/crates/socket-pktinfo-0.4.1/
+
+socket2 0.6.5
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-lang/socket2
+Notices: licenses/crates/socket2-0.6.5/
+
+souvlaki 0.8.3
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/Sinono3/souvlaki
+Notices: licenses/crates/souvlaki-0.8.3/
+
+spin 0.9.9
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/mvdnes/spin-rs.git
+Notices: licenses/crates/spin-0.9.9/
+
+spinning_top 0.3.0
+License: MIT/Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rust-osdev/spinning_top
+Notices: licenses/crates/spinning_top-0.3.0/
+
+spki 0.7.3
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/formats/tree/master/spki
+Notices: licenses/crates/spki-0.7.3/
+
+stable_deref_trait 1.2.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/storyyeller/stable_deref_trait
+Notices: licenses/crates/stable_deref_trait-1.2.1/
+
+static_assertions 1.1.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/nvzqz/static-assertions-rs
+Notices: licenses/crates/static_assertions-1.1.0/
+
+strict-num 0.1.1
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RazrFalcon/strict-num
+Notices: licenses/crates/strict-num-0.1.1/
+
+strsim 0.11.1
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rapidfuzz/strsim-rs
+Notices: licenses/crates/strsim-0.11.1/
+
+subtle 2.6.1
+License: BSD-3-Clause
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dalek-cryptography/subtle
+Notices: licenses/crates/subtle-2.6.1/
+
+svgtypes 0.15.3
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/linebender/svgtypes
+Notices: licenses/crates/svgtypes-0.15.3/
+
+symphonia 0.5.5
+License: MPL-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/pdeljanov/Symphonia
+Notices: licenses/crates/symphonia-0.5.5/
+
+symphonia-bundle-flac 0.5.5
+License: MPL-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/pdeljanov/Symphonia
+Notices: licenses/crates/symphonia-bundle-flac-0.5.5/
+
+symphonia-bundle-mp3 0.5.5
+License: MPL-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/pdeljanov/Symphonia
+Notices: licenses/crates/symphonia-bundle-mp3-0.5.5/
+
+symphonia-codec-vorbis 0.5.5
+License: MPL-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/pdeljanov/Symphonia
+Notices: licenses/crates/symphonia-codec-vorbis-0.5.5/
+
+symphonia-core 0.5.5
+License: MPL-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/pdeljanov/Symphonia
+Notices: licenses/crates/symphonia-core-0.5.5/
+
+symphonia-format-ogg 0.5.5
+License: MPL-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/pdeljanov/Symphonia
+Notices: licenses/crates/symphonia-format-ogg-0.5.5/
+
+symphonia-metadata 0.5.5
+License: MPL-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/pdeljanov/Symphonia
+Notices: licenses/crates/symphonia-metadata-0.5.5/
+
+symphonia-utils-xiph 0.5.5
+License: MPL-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/pdeljanov/Symphonia
+Notices: licenses/crates/symphonia-utils-xiph-0.5.5/
+
+syn 2.0.119
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dtolnay/syn
+Notices: licenses/crates/syn-2.0.119/
+
+syn 3.0.4
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dtolnay/syn
+Notices: licenses/crates/syn-3.0.4/
+
+sync_wrapper 1.0.2
+License: Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/Actyx/sync_wrapper
+Notices: licenses/crates/sync_wrapper-1.0.2/
+
+synstructure 0.13.2
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/mystor/synstructure
+Notices: licenses/crates/synstructure-0.13.2/
+
+sys-locale 0.3.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/1Password/sys-locale
+Notices: licenses/crates/sys-locale-0.3.2/
+
+sysinfo 0.36.1
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/GuillaumeGomez/sysinfo
+Notices: licenses/crates/sysinfo-0.36.1/
+
+tempfile 3.27.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/Stebalien/tempfile
+Notices: licenses/crates/tempfile-3.27.0/
+
+thiserror 1.0.69
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dtolnay/thiserror
+Notices: licenses/crates/thiserror-1.0.69/
+
+thiserror 2.0.20
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dtolnay/thiserror
+Notices: licenses/crates/thiserror-2.0.20/
+
+thiserror-impl 1.0.69
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dtolnay/thiserror
+Notices: licenses/crates/thiserror-impl-1.0.69/
+
+thiserror-impl 2.0.20
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dtolnay/thiserror
+Notices: licenses/crates/thiserror-impl-2.0.20/
+
+tiff 0.11.3
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/image-rs/image-tiff
+Notices: licenses/crates/tiff-0.11.3/
+
+time 0.3.55
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/time-rs/time
+Notices: licenses/crates/time-0.3.55/
+
+time-core 0.1.9
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/time-rs/time
+Notices: licenses/crates/time-core-0.1.9/
+
+time-macros 0.2.32
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/time-rs/time
+Notices: licenses/crates/time-macros-0.2.32/
+
+tiny-skia 0.11.4
+License: BSD-3-Clause
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RazrFalcon/tiny-skia
+Notices: licenses/crates/tiny-skia-0.11.4/
+
+tiny-skia-path 0.11.4
+License: BSD-3-Clause
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RazrFalcon/tiny-skia/tree/master/path
+Notices: licenses/crates/tiny-skia-path-0.11.4/
+
+tinystr 0.8.4
+License: Unicode-3.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-org/icu4x
+Notices: licenses/crates/tinystr-0.8.4/
+
+tinyvec 1.12.0
+License: Zlib OR Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/Lokathor/tinyvec
+Notices: licenses/crates/tinyvec-1.12.0/
+
+tinyvec_macros 0.1.1
+License: MIT OR Apache-2.0 OR Zlib
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/Soveu/tinyvec_macros
+Notices: licenses/crates/tinyvec_macros-0.1.1/
+
+tokio 1.53.1
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/tokio-rs/tokio
+Notices: licenses/crates/tokio-1.53.1/
+
+tokio-macros 2.7.2
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/tokio-rs/tokio
+Notices: licenses/crates/tokio-macros-2.7.2/
+
+tokio-rustls 0.26.4
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rustls/tokio-rustls
+Notices: licenses/crates/tokio-rustls-0.26.4/
+
+tokio-stream 0.1.19
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/tokio-rs/tokio
+Notices: licenses/crates/tokio-stream-0.1.19/
+
+tokio-tungstenite 0.28.0
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/snapview/tokio-tungstenite
+Notices: licenses/crates/tokio-tungstenite-0.28.0/
+
+tokio-util 0.7.19
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/tokio-rs/tokio
+Notices: licenses/crates/tokio-util-0.7.19/
+
+toml 1.1.4+spec-1.1.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/toml-rs/toml
+Notices: licenses/crates/toml-1.1.4+spec-1.1.0/
+
+toml_datetime 1.1.1+spec-1.1.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/toml-rs/toml
+Notices: licenses/crates/toml_datetime-1.1.1+spec-1.1.0/
+
+toml_parser 1.1.3+spec-1.1.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/toml-rs/toml
+Notices: licenses/crates/toml_parser-1.1.3+spec-1.1.0/
+
+toml_writer 1.1.2+spec-1.1.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/toml-rs/toml
+Notices: licenses/crates/toml_writer-1.1.2+spec-1.1.0/
+
+tower 0.5.3
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/tower-rs/tower
+Notices: licenses/crates/tower-0.5.3/
+
+tower-http 0.6.11
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/tower-rs/tower-http
+Notices: licenses/crates/tower-http-0.6.11/
+
+tower-layer 0.3.3
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/tower-rs/tower
+Notices: licenses/crates/tower-layer-0.3.3/
+
+tower-service 0.3.3
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/tower-rs/tower
+Notices: licenses/crates/tower-service-0.3.3/
+
+tr 0.1.11
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/woboq/tr
+Notices: licenses/crates/tr-0.1.11/
+
+tracing 0.1.44
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/tokio-rs/tracing
+Notices: licenses/crates/tracing-0.1.44/
+
+tracing-attributes 0.1.31
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/tokio-rs/tracing
+Notices: licenses/crates/tracing-attributes-0.1.31/
+
+tracing-core 0.1.36
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/tokio-rs/tracing
+Notices: licenses/crates/tracing-core-0.1.36/
+
+tray-icon 0.25.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/tauri-apps/tray-icon
+Notices: licenses/crates/tray-icon-0.25.1/
+
+try-lock 0.2.5
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/seanmonstar/try-lock
+Notices: licenses/crates/try-lock-0.2.5/
+
+tungstenite 0.28.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/snapview/tungstenite-rs
+Notices: licenses/crates/tungstenite-0.28.0/
+
+type-map 0.5.1
+License: MIT/Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/kardeiz/type-map
+Notices: licenses/crates/type-map-0.5.1/
+
+typeid 1.0.3
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dtolnay/typeid
+Notices: licenses/crates/typeid-1.0.3/
+
+typenum 1.20.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/paholg/typenum
+Notices: licenses/crates/typenum-1.20.1/
+
+unicase 2.9.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/seanmonstar/unicase
+Notices: licenses/crates/unicase-2.9.0/
+
+unicode-bidi 0.3.18
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/servo/unicode-bidi
+Notices: licenses/crates/unicode-bidi-0.3.18/
+
+unicode-general-category 1.1.0
+License: Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/yeslogic/unicode-general-category
+Notices: licenses/crates/unicode-general-category-1.1.0/
+
+unicode-ident 1.0.24
+License: (MIT OR Apache-2.0) AND Unicode-3.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dtolnay/unicode-ident
+Notices: licenses/crates/unicode-ident-1.0.24/
+
+unicode-normalization 0.1.25
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-rs/unicode-normalization
+Notices: licenses/crates/unicode-normalization-0.1.25/
+
+unicode-segmentation 1.13.3
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-rs/unicode-segmentation
+Notices: licenses/crates/unicode-segmentation-1.13.3/
+
+unicode-width 0.2.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-rs/unicode-width
+Notices: licenses/crates/unicode-width-0.2.2/
+
+untrusted 0.9.0
+License: ISC
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/briansmith/untrusted
+Notices: licenses/crates/untrusted-0.9.0/
+
+url 2.5.8
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/servo/rust-url
+Notices: licenses/crates/url-2.5.8/
+
+urlencoding 2.1.3
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/kornelski/rust_urlencoding
+Notices: licenses/crates/urlencoding-2.1.3/
+
+usvg 0.45.1
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/linebender/resvg
+Notices: licenses/crates/usvg-0.45.1/
+
+utf-8 0.7.6
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/SimonSapin/rust-utf8
+Notices: licenses/crates/utf-8-0.7.6/
+
+utf8_iter 1.0.4
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/hsivonen/utf8_iter
+Notices: licenses/crates/utf8_iter-1.0.4/
+
+utf8parse 0.2.2
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/alacritty/vte
+Notices: licenses/crates/utf8parse-0.2.2/
+
+uuid 1.26.0
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/uuid-rs/uuid
+Notices: licenses/crates/uuid-1.26.0/
+
+vello_common 0.1.0
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/linebender/vello
+Notices: licenses/crates/vello_common-0.1.0/
+
+vello_cpu 0.1.0
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/linebender/vello
+Notices: licenses/crates/vello_cpu-0.1.0/
+
+vergen 9.0.6
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rustyhorde/vergen
+Notices: licenses/crates/vergen-9.0.6/
+
+vergen-gitcl 1.0.8
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rustyhorde/vergen
+Notices: licenses/crates/vergen-gitcl-1.0.8/
+
+vergen-lib 0.1.6
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rustyhorde/vergen
+Notices: licenses/crates/vergen-lib-0.1.6/
+
+version_check 0.9.5
+License: MIT/Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/SergioBenitez/version_check
+Notices: licenses/crates/version_check-0.9.5/
+
+want 0.3.1
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/seanmonstar/want
+Notices: licenses/crates/want-0.3.1/
+
+web-time 1.1.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/daxpedda/web-time
+Notices: licenses/crates/web-time-1.1.0/
+
+webbrowser 1.2.4
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/amodm/webbrowser-rs
+Notices: licenses/crates/webbrowser-1.2.4/
+
+webpki-roots 1.0.9
+License: CDLA-Permissive-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/rustls/webpki-roots
+Notices: licenses/crates/webpki-roots-1.0.9/
+
+weezl 0.1.12
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/image-rs/weezl
+Notices: licenses/crates/weezl-0.1.12/
+
+wgpu 30.0.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/gfx-rs/wgpu
+Notices: licenses/crates/wgpu-30.0.1/
+
+wgpu-core 30.0.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/gfx-rs/wgpu
+Notices: licenses/crates/wgpu-core-30.0.1/
+
+wgpu-core-deps-windows-linux-android 30.0.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/gfx-rs/wgpu
+Notices: licenses/crates/wgpu-core-deps-windows-linux-android-30.0.1/
+
+wgpu-hal 30.0.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/gfx-rs/wgpu
+Notices: licenses/crates/wgpu-hal-30.0.1/
+
+wgpu-naga-bridge 30.0.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/gfx-rs/wgpu
+Notices: licenses/crates/wgpu-naga-bridge-30.0.1/
+
+wgpu-types 30.0.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/gfx-rs/wgpu
+Notices: licenses/crates/wgpu-types-30.0.1/
+
+which 4.4.2
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/harryfei/which-rs.git
+Notices: licenses/crates/which-4.4.2/
+
+winapi 0.3.9
+License: MIT/Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/retep998/winapi-rs
+Notices: licenses/crates/winapi-0.3.9/
+
+winapi-x86_64-pc-windows-gnu 0.4.0
+License: MIT/Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/retep998/winapi-rs
+Notices: licenses/crates/winapi-x86_64-pc-windows-gnu-0.4.0/
+
+windows 0.44.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-0.44.0/
+
+windows 0.61.3
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-0.61.3/
+
+windows 0.62.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-0.62.2/
+
+windows-collections 0.2.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-collections-0.2.0/
+
+windows-collections 0.3.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-collections-0.3.2/
+
+windows-core 0.61.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-core-0.61.2/
+
+windows-core 0.62.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-core-0.62.2/
+
+windows-future 0.2.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-future-0.2.1/
+
+windows-future 0.3.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-future-0.3.2/
+
+windows-implement 0.60.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-implement-0.60.2/
+
+windows-interface 0.59.3
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-interface-0.59.3/
+
+windows-link 0.1.3
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-link-0.1.3/
+
+windows-link 0.2.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-link-0.2.1/
+
+windows-native-keyring-store 1.1.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/open-source-cooperative/windows-native-keyring-store.git
+Notices: licenses/crates/windows-native-keyring-store-1.1.0/
+
+windows-numerics 0.2.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-numerics-0.2.0/
+
+windows-numerics 0.3.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-numerics-0.3.1/
+
+windows-registry 0.6.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-registry-0.6.1/
+
+windows-result 0.3.4
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-result-0.3.4/
+
+windows-result 0.4.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-result-0.4.1/
+
+windows-strings 0.4.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-strings-0.4.2/
+
+windows-strings 0.5.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-strings-0.5.1/
+
+windows-sys 0.52.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-sys-0.52.0/
+
+windows-sys 0.59.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-sys-0.59.0/
+
+windows-sys 0.60.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-sys-0.60.2/
+
+windows-sys 0.61.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-sys-0.61.2/
+
+windows-targets 0.42.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-targets-0.42.2/
+
+windows-targets 0.52.6
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-targets-0.52.6/
+
+windows-targets 0.53.5
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-targets-0.53.5/
+
+windows-threading 0.1.0
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-threading-0.1.0/
+
+windows-threading 0.2.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows-threading-0.2.1/
+
+windows_x86_64_gnu 0.42.2
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows_x86_64_gnu-0.42.2/
+
+windows_x86_64_gnu 0.52.6
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows_x86_64_gnu-0.52.6/
+
+windows_x86_64_gnu 0.53.1
+License: MIT OR Apache-2.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/microsoft/windows-rs
+Notices: licenses/crates/windows_x86_64_gnu-0.53.1/
+
+winit 0.30.13
+License: Apache-2.0
+Source: git+https://github.com/crmne/winit?rev=ed7caa9023f10b397f5b6ec8284a840cbd8a6f65#ed7caa9023f10b397f5b6ec8284a840cbd8a6f65
+Repository: https://github.com/rust-windowing/winit
+Notices: licenses/crates/winit-0.30.13/
+
+winnow 1.0.4
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/winnow-rs/winnow
+Notices: licenses/crates/winnow-1.0.4/
+
+winresource 0.1.31
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/BenjaminRi/winresource
+Notices: licenses/crates/winresource-0.1.31/
+
+writeable 0.6.4
+License: Unicode-3.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-org/icu4x
+Notices: licenses/crates/writeable-0.6.4/
+
+xml-rs 0.8.29
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/kornelski/xml-rs
+Notices: licenses/crates/xml-rs-0.8.29/
+
+xmlwriter 0.1.0
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RazrFalcon/xmlwriter
+Notices: licenses/crates/xmlwriter-0.1.0/
+
+yoke 0.8.3
+License: Unicode-3.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-org/icu4x
+Notices: licenses/crates/yoke-0.8.3/
+
+yoke-derive 0.8.2
+License: Unicode-3.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-org/icu4x
+Notices: licenses/crates/yoke-derive-0.8.2/
+
+zerocopy 0.8.56
+License: BSD-2-Clause OR Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/google/zerocopy
+Notices: licenses/crates/zerocopy-0.8.56/
+
+zerocopy-derive 0.8.56
+License: BSD-2-Clause OR Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/google/zerocopy
+Notices: licenses/crates/zerocopy-derive-0.8.56/
+
+zerofrom 0.1.8
+License: Unicode-3.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-org/icu4x
+Notices: licenses/crates/zerofrom-0.1.8/
+
+zerofrom-derive 0.1.7
+License: Unicode-3.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-org/icu4x
+Notices: licenses/crates/zerofrom-derive-0.1.7/
+
+zeroize 1.9.0
+License: Apache-2.0 OR MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/RustCrypto/utils
+Notices: licenses/crates/zeroize-1.9.0/
+
+zerotrie 0.2.5
+License: Unicode-3.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-org/icu4x
+Notices: licenses/crates/zerotrie-0.2.5/
+
+zerovec 0.11.8
+License: Unicode-3.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-org/icu4x
+Notices: licenses/crates/zerovec-0.11.8/
+
+zerovec-derive 0.11.6
+License: Unicode-3.0
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/unicode-org/icu4x
+Notices: licenses/crates/zerovec-derive-0.11.6/
+
+zmij 1.0.23
+License: MIT
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/dtolnay/zmij
+Notices: licenses/crates/zmij-1.0.23/
+
+zune-core 0.5.3
+License: MIT OR Apache-2.0 OR Zlib
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/etemesi254/zune-image
+Notices: licenses/crates/zune-core-0.5.3/
+
+zune-jpeg 0.5.15
+License: MIT OR Apache-2.0 OR Zlib
+Source: registry+https://github.com/rust-lang/crates.io-index
+Repository: https://github.com/etemesi254/zune-image/tree/dev/crates/zune-jpeg
+Notices: licenses/crates/zune-jpeg-0.5.15/
+

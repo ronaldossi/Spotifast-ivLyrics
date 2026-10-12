@@ -1,0 +1,1 @@
+License and copyright copied from the opening comment of tr 0.1.11 src/lib.rs.

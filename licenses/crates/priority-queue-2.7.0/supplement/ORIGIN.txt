@@ -1,0 +1,3 @@
+MPL-2.0 selected from the LGPL-3.0-or-later OR MPL-2.0 expression.
+Copyright and dual-license header copied from priority-queue 2.7.0 src/lib.rs.
+The standard MPL-2.0 text is reproduced in LICENSE-MPL-2.0.

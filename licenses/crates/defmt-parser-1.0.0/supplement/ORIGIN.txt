@@ -1,0 +1,3 @@
+Upstream repository: https://github.com/knurling-rs/defmt
+Revision: 4a8cdb44891ed57b8ff5a023b6bec7137c48708f
+License files retrieved without alteration.
