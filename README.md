@@ -4,7 +4,10 @@ Spotifast의 로컬 수정판 소스입니다. 원본 프로젝트의 공식 배
 
 ## 다운로드와 검색 화면 업데이트
 
-[최신 Windows 설치파일 및 포터블 ZIP](https://github.com/ronaldossi/Spotifast-ivLyrics/releases/latest)
+[기존 배포 파일](https://github.com/ronaldossi/Spotifast-ivLyrics/releases)
+
+아래 검색 화면 개선은 `main` 소스에 반영되어 있습니다.
+이 변경을 포함하는 `v0.12.0-ivlyrics.2` 설치파일은 배포 준비 중입니다.
 
 - 최근 검색 기록 전체 삭제
 - 빈 검색 화면의 추천 노래와 최근 들은 곡
