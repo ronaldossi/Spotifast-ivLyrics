@@ -107,3 +107,21 @@ fn named_placeholders(text: &str) -> Vec<&str> {
     names.sort_unstable();
     names
 }
+
+#[test]
+fn search_discovery_controls_have_korean_translations() {
+    use spotifast::i18n::{Locale, gettext};
+    for (source, expected) in [
+        ("Clear all searches", "전체 삭제"),
+        ("Recommended songs", "추천 노래"),
+        ("Recently played songs", "최근 들은 곡"),
+        ("K-Pop", "케이팝"),
+        ("Jazz", "재즈"),
+        ("Indie", "인디"),
+        ("Chill", "편안한 음악"),
+        ("Classical", "클래식"),
+        ("R&B", "알앤비"),
+    ] {
+        assert_eq!(gettext(Locale::Korean, source), expected, "{source}");
+    }
+}

@@ -4,7 +4,7 @@ use std::sync::Arc;
 
 use egui::{Align, CornerRadius, Layout, Rect, Sense, Vec2, pos2, vec2};
 
-use crate::api::models::{Artist, ArtistRef, PlayableItem, SearchResults, pick_image};
+use crate::api::models::{Artist, ArtistRef, PlayableItem, SearchResults, Track, pick_image};
 use crate::app::App;
 use crate::i18n::gettext;
 use crate::model::{Action, Loadable, Page, RowContext, SearchFilter};
@@ -16,6 +16,7 @@ pub fn show(app: &mut App, ui: &mut egui::Ui) {
     let palette = app.palette;
     if app.search.committed.is_empty() && app.search.typed_at.is_none() {
         recent(app, ui);
+        discover(app, ui);
         return;
     }
     ui.add_space(4.0);
@@ -84,19 +85,22 @@ fn recent(app: &mut App, ui: &mut egui::Ui) {
     let palette = app.palette;
     ui.add_space(6.0);
     if app.settings.search_history.is_empty() {
-        widgets::empty_state(
-            ui,
-            &palette,
-            Icon::Search,
-            &gettext(app.locale, "Search Spotify"),
-            &gettext(
-                app.locale,
-                "Find songs, artists, albums, playlists, and podcasts.",
-            ),
-        );
         return;
     }
-    theme::section_title(ui, &palette, &gettext(app.locale, "Recent searches"));
+    ui.horizontal(|ui| {
+        theme::section_title(ui, &palette, &gettext(app.locale, "Recent searches"));
+        ui.add_space(8.0);
+        if theme::link(
+            ui,
+            gettext(app.locale, "Clear all searches").as_ref(),
+            theme::regular(12.0),
+            palette.secondary,
+        )
+        .clicked()
+        {
+            app.actions.push(Action::ClearSearchHistory);
+        }
+    });
     ui.add_space(6.0);
     let history = app.settings.search_history.clone();
     ui.horizontal_wrapped(|ui| {
@@ -110,6 +114,103 @@ fn recent(app: &mut App, ui: &mut egui::Ui) {
             }
         }
     });
+}
+
+fn unique_tracks(tracks: impl IntoIterator<Item = Track>, limit: usize) -> Vec<Track> {
+    let mut seen = std::collections::HashSet::new();
+    tracks
+        .into_iter()
+        .filter(|track| !track.uri.is_empty() && seen.insert(track.uri.clone()))
+        .take(limit)
+        .collect()
+}
+
+fn discover(app: &mut App, ui: &mut egui::Ui) {
+    let palette = app.palette;
+    let locale = app.locale;
+    ui.add_space(16.0);
+    let recommended = app
+        .home
+        .recommendations
+        .get()
+        .filter(|tracks| !tracks.is_empty());
+    let candidates = recommended.or_else(|| app.home.top_tracks.get());
+    let tracks = unique_tracks(candidates.into_iter().flatten().cloned(), 12);
+    let history = crate::history::merged(
+        app.plays.plays(),
+        app.home
+            .recently_played
+            .get()
+            .map(Vec::as_slice)
+            .unwrap_or_default(),
+    );
+    let recent = unique_tracks(history.into_iter().map(|entry| entry.track), 8);
+    if !tracks.is_empty() {
+        let title = if recommended.is_some() {
+            gettext(locale, "Recommended songs")
+        } else {
+            gettext(locale, "Your top songs")
+        };
+        widgets::shelf(ui, &palette, "search-discover", &title, |ui| {
+            for (index, track) in tracks.iter().enumerate() {
+                let card = widgets::card(
+                    ui,
+                    app,
+                    track.image(640),
+                    &track.name,
+                    &track.artist_names(),
+                    widgets::CardCover::square(false),
+                );
+                if card.play || card.clicked {
+                    app.actions.push(Action::PlayUris {
+                        uris: tracks.iter().map(|track| track.uri.clone()).collect(),
+                        index: index as u32,
+                    });
+                }
+            }
+        });
+    }
+    if !recent.is_empty() {
+        super::home::track_list(
+            app,
+            ui,
+            &gettext(locale, "Recently played songs"),
+            Loadable::Loaded(recent),
+            8,
+            None,
+            None,
+        );
+    } else if tracks.is_empty() {
+        theme::section_title(ui, &palette, &gettext(locale, "Search Spotify"));
+        ui.add_space(8.0);
+        theme::subtle(
+            ui,
+            &palette,
+            &gettext(
+                locale,
+                "Find songs, artists, albums, playlists, and podcasts.",
+            ),
+        );
+        ui.add_space(12.0);
+        ui.horizontal_wrapped(|ui| {
+            for (query, label) in [
+                ("K-Pop", gettext(locale, "K-Pop")),
+                ("Jazz", gettext(locale, "Jazz")),
+                ("Indie", gettext(locale, "Indie")),
+                ("Chill", gettext(locale, "Chill")),
+                ("Classical", gettext(locale, "Classical")),
+                ("R&B", gettext(locale, "R&B")),
+            ] {
+                if theme::soft_button(ui, &palette, Some(Icon::Search), &label, false).clicked() {
+                    app.actions.push(Action::Search(query.to_string()));
+                }
+            }
+        });
+        if app.home.top_tracks.is_loading() || app.home.recently_played.is_loading() {
+            ui.add_space(12.0);
+            widgets::loading_row(ui, &palette, locale);
+        }
+    }
 }
 
 fn all(app: &mut App, ui: &mut egui::Ui, results: &SearchResults) {
@@ -724,4 +825,32 @@ fn episodes(app: &mut App, ui: &mut egui::Ui, results: &SearchResults, limit: us
 #[allow(dead_code)]
 fn align_right(ui: &mut egui::Ui, add: impl FnOnce(&mut egui::Ui)) {
     ui.with_layout(Layout::right_to_left(Align::Center), add);
+}
+
+#[cfg(test)]
+mod discovery_tests {
+    use super::*;
+
+    #[test]
+    fn deduplicates_before_limiting_and_ignores_missing_uris() {
+        let tracks = [
+            "",
+            "spotify:track:a",
+            "spotify:track:a",
+            "spotify:track:b",
+            "spotify:track:c",
+        ]
+        .map(|uri| Track {
+            uri: uri.into(),
+            ..Track::default()
+        });
+        let result = unique_tracks(tracks, 2);
+        assert_eq!(
+            result
+                .iter()
+                .map(|track| track.uri.as_str())
+                .collect::<Vec<_>>(),
+            ["spotify:track:a", "spotify:track:b"]
+        );
+    }
 }

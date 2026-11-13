@@ -3877,7 +3877,11 @@ impl App {
         match page {
             Page::Home => self.load_home(false),
             Page::TopSongs => self.load_top_songs(false),
-            Page::Search => {}
+            Page::Search => {
+                if self.search.query.trim().is_empty() {
+                    self.load_home(false);
+                }
+            }
             Page::LikedSongs => self.ensure_liked_songs(),
             Page::Albums => {
                 if !self.library.albums.loaded_once {
@@ -4805,6 +4809,9 @@ impl App {
     }
 
     fn run_search(&mut self, query: String) {
+        if query.is_empty() && self.is_connected() {
+            self.load_home(false);
+        }
         if !query.is_empty()
             && query == self.search.committed
             && !self.search.results.needs_load()
@@ -9140,6 +9147,10 @@ impl App {
             }
             Action::ForgetSearch(query) => {
                 self.settings.search_history.retain(|entry| entry != &query);
+                self.settings_dirty = true;
+            }
+            Action::ClearSearchHistory => {
+                self.settings.search_history.clear();
                 self.settings_dirty = true;
             }
             Action::SetSearchFilter(filter) => self.search.filter = filter,

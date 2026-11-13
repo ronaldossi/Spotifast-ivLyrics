@@ -589,7 +589,7 @@ fn top_artists(app: &mut App, ui: &mut egui::Ui) {
     );
 }
 
-fn track_list(
+pub(super) fn track_list(
     app: &mut App,
     ui: &mut egui::Ui,
     title: &str,

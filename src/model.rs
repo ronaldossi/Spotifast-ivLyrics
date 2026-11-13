@@ -1064,6 +1064,7 @@ pub enum Action {
     OpenInSpotify(String),
     Search(String),
     ForgetSearch(String),
+    ClearSearchHistory,
     SetSearchFilter(SearchFilter),
     FocusSearch,
     LoadMore(Page),

@@ -2,6 +2,17 @@
 
 Spotifast의 로컬 수정판 소스입니다. 원본 프로젝트의 공식 배포본은 아닙니다.
 
+## 다운로드와 검색 화면 업데이트
+
+[최신 Windows 설치파일 및 포터블 ZIP](https://github.com/ronaldossi/Spotifast-ivLyrics/releases/latest)
+
+- 최근 검색 기록 전체 삭제
+- 빈 검색 화면의 추천 노래와 최근 들은 곡
+- 기존 화면 스타일을 유지한 한국어 제목·장르 버튼
+
+추천을 가져오지 못하면 사용 가능한 재생 기록이나 장르 검색을 표시합니다.
+[검색 화면 안내](docs/search-discovery.md)를 참고하세요.
+
 ## 빌드
 
 Rust 1.98.0과 대상 플랫폼의 C/C++ 빌드 도구가 필요합니다.

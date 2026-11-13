@@ -964,6 +964,37 @@ pub fn apply_flags(app: &mut App, page: Option<&str>, show: Option<&str>) {
                 app.settings.theme = crate::settings::ThemeChoice::Light;
                 app.actions.push(Action::SettingsChanged);
             }
+            "search-empty" => {
+                app.search.query.clear();
+                app.search.committed.clear();
+                app.search.typed_at = None;
+            }
+            "search-no-history" => app.settings.search_history.clear(),
+            "search-korean" => {
+                if let Loadable::Loaded(tracks) = &mut app.home.recommendations {
+                    let titles = [
+                        "오늘도 좋은 하루",
+                        "조용한 밤을 위한 노래",
+                        "오래도록 기억하고 싶은 순간",
+                        "우리의 계절",
+                        "잠시 쉬어 가도 괜찮아",
+                        "다시 만나는 날",
+                    ];
+                    for (index, track) in tracks.iter_mut().enumerate() {
+                        track.name = titles[index % titles.len()].into();
+                        if let Some(artist) = track.artists.first_mut() {
+                            artist.name = "한글 아티스트".into();
+                        }
+                    }
+                }
+            }
+            "search-no-data" => {
+                app.home.recommendations = Loadable::Loaded(Vec::new());
+                app.home.top_tracks = Loadable::Loaded(Vec::new());
+                app.home.recently_played = Loadable::Loaded(Vec::new());
+                app.plays.clear();
+                app.remote = None;
+            }
             "dark" => {
                 app.settings.theme = crate::settings::ThemeChoice::Dark;
                 app.actions.push(Action::SettingsChanged);
@@ -3512,6 +3543,77 @@ mod tests {
         assert!(
             app.search.committed.is_empty(),
             "the cross must forget a query without running it"
+        );
+        app.backend.shutdown();
+    }
+
+    #[test]
+    fn clearing_all_searches_keeps_discovery_and_playback() {
+        use egui::accesskit::{Action as AccessibleAction, Role};
+        let (ctx, mut app) = accessible_app("clear-search-history");
+        app.open(Page::Search);
+        app.search.query.clear();
+        app.search.committed.clear();
+        app.search.typed_at = None;
+        let before = app.now_playing().map(|now| now.uri);
+        let suggested = &app.home.recommendations.get().unwrap()[0];
+        let card_label = format!("{}, {}", suggested.name, suggested.artist_names());
+        accessible_frame(&ctx, &mut app, vec![]);
+        let tree = accessible_frame(&ctx, &mut app, vec![]);
+        let clear = accessible_node(&tree, "Clear all searches", Role::Link);
+        accessible_frame(
+            &ctx,
+            &mut app,
+            vec![accessible_action(clear, AccessibleAction::Click, None)],
+        );
+        assert!(app.settings.search_history.is_empty());
+        assert_eq!(app.now_playing().map(|now| now.uri), before);
+        let tree = accessible_frame(&ctx, &mut app, vec![]);
+        assert!(
+            tree.nodes
+                .iter()
+                .any(|(_, node)| node.role() == Role::Button
+                    && node.label() == Some(card_label.as_str()))
+        );
+        assert!(
+            !tree
+                .nodes
+                .iter()
+                .any(|(_, node)| node.label() == Some("Clear all searches"))
+        );
+        app.backend.shutdown();
+    }
+
+    #[test]
+    fn empty_search_uses_local_plays_when_home_requests_fail() {
+        let (ctx, mut app) = accessible_app("search-local-fallback");
+        app.open(Page::Search);
+        app.search.query.clear();
+        app.search.committed.clear();
+        app.search.typed_at = None;
+        app.settings.search_history.clear();
+        app.home.recommendations = Loadable::Failed("offline".into());
+        app.home.top_tracks = Loadable::Failed("offline".into());
+        app.home.recently_played = Loadable::Failed("offline".into());
+        let mut local = track(31);
+        local.name = "Local fallback song".into();
+        app.plays.record(local, Timestamp::now());
+        accessible_frame(&ctx, &mut app, vec![]);
+        let tree = accessible_frame(&ctx, &mut app, vec![]);
+        assert!(tree.nodes.iter().any(|(_, node)| {
+            node.label()
+                .is_some_and(|label| label.contains("Local fallback song"))
+        }));
+        app.home.recommendations = Loadable::Loaded(Vec::new());
+        app.home.top_tracks = Loadable::Loaded(Vec::new());
+        app.home.recently_played = Loadable::Loaded(Vec::new());
+        app.plays.clear();
+        accessible_frame(&ctx, &mut app, vec![]);
+        let tree = accessible_frame(&ctx, &mut app, vec![]);
+        assert!(
+            tree.nodes
+                .iter()
+                .any(|(_, node)| node.label() == Some("Jazz"))
         );
         app.backend.shutdown();
     }
